@@ -73,3 +73,7 @@ input:active{
     transform: translateY(0em);
     box-shadow: 0;
 }
+
+a{
+    color: white;
+}
