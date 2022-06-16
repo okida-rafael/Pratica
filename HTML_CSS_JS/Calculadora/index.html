@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+   
+</head>
+<body>
+    <Header>
+        <h1>Calculadora Simples</h1>
+    </Header>
+   
+    <main>
+        <div id="entrada">
+            <label for="ent1"> Insira um número:</label>
+            <input type="number" name="ent1" id="ent1">
+            <label for="ent2">Insira outro número:</label>
+            <input type="number" name="ent2" id="ent2">
+        </div>
+        <div id="operacao">
+            <div id="soma"><input type="button" value="Somar" onclick="soma()"></div>
+            <div id="subtracao"><input type="button" value="Subtrair" onclick="subtrair()"></div>
+            <div id="multiplicação"><input type="button" value="Multiplicar" onclick="multiplicar()"></div>
+            <div id="divisao"><input type="button" value="Dividir" onclick="dividir()"></div>
+        </div>
+        <div id="res"></div>
+        <div id="limpa"><input type="button" value="Limpar" onclick="limpar()"></div>
+    </main>
+
+    <footer>
+        Criado por Rafael Okida
+    </footer>
+    <script src="calculadora.js"></script>
+</body>
+</html>

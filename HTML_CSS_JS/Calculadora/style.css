@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 238, 255),white, red);
+}
+main{
+    height: 400px;
+}
+
+div{
+    padding: 5px;
+}
+div#operacao{
+    display: flex;
+    justify-content: center;
+    
+
+}
+div#res{
+    padding: 15px;
+    font-size: x-large;
+}
+div#limpa{
+    visibility: hidden;
+}
+input{
+    margin: 10px;
+
+    }
+
+input[type=button]{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    transition: .1s;
+    font-weight: bold;
+}    
+  
+input[type=button]:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+    transform: scale(1.1)
+} 
+input[type=button]:active{
+    background-color: rgba(255, 255, 255, 0.664);
+    transform: scale(.9);
+} 
+
+label{
+    display: block;
+}
