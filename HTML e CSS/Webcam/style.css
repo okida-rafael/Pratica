@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+video{
+    border: 1px solid rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 0px rgb(0, 0, 0);
+}
+h1{
+    text-shadow: 3px 1px 14px rgb(0, 0, 0);
+}

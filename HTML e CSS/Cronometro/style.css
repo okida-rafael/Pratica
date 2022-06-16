@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px white;
+    
+}
+
+div#display{
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    padding-top: 20px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+div#botoes{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    
+    
+}
+
+footer{
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.534);
+}
+
+input{
+
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    width: 80px;
+    height: 30px;
+    transform: translateY(-.1em);
+    box-shadow: 1px 2px 1px black;
+    transition: .1s ease;
+   
+}
+input:hover{
+    transform: translateY(-.2em);
+    box-shadow: 1px 4px 1px black;
+}
+input:active{
+    transform: translateY(0em);
+    box-shadow: 0;
+}

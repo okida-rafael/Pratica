@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    /*margin: 0;*/
+}
+
+body{
+    background-color: lightgray;
+    
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+div#player1{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+
+}
+
+div#meio{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+}
+
+div#player2{
+    background-color:yellow;
+    width: 200px;
+    height: 100px;
+
+}
+main{
+    background-color: rgb(255, 13, 13);
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    background-image: 
+}
+
+
+footer{
+    background-color: black;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+
+}
