@@ -1,21 +1,26 @@
 @charset "UTF-8";
 
 
+
 body{
     
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 h1{
     text-align: center;
     text-shadow: 1px 1px 3px rgb(0 0 0 / 70%);
 }
+
+
 form{
     width: 600px;
-    background-color: rgba(211, 211, 211, 0.452);
+    background-color: rgba(209, 209, 209, 0.452);
     margin: auto;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.699);
+    
 }
 
 label{
@@ -45,3 +50,34 @@ a{
     text-decoration: none;
     color: red;
 }
+
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 6px solid rgb(0, 0, 0);
+    border-color: rgb(99, 99, 99) transparent rgb(99, 99, 99) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  div{
+    visibility: hidden;
+  }
