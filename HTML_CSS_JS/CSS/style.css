@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img1{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    float: left;
+
+}#img2{
+    background-image: url(banner2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+#container1, #container2{
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#conteudo1, #conteudo2{
+    padding: 10px;
+    width: 100%;
+ }
+
+ p{
+    padding: 10px;
+ }
