@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+
+
+}
+.moldura{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(70, 129, 156);
+}
+
+.content input{
+    padding: 5px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: block;
+    
+}
+.content h2{
+    color: #fff;
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+.content label{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.content p{
+    color: #fff;
+}
